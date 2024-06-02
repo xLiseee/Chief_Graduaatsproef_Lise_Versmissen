@@ -1,0 +1,10 @@
+{
+  "name": "graduaatsproef-v2",
+  "version": "1.0.0",
+  "dependencies": {
+    "sass": "^1.69.1"
+  },
+  "scripts": {
+    "scss": "sass --watch scss/style.scss:css/style.css"
+  }
+}

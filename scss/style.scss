@@ -1,0 +1,159 @@
+body {
+  font-family: "Epilogue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #e0ffdf 0%, #d1edff 100%, #efe0ff 0%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none !important;
+  }
+
+  .first-feature-section {
+    flex-direction: column;
+  }
+
+  .images {
+    flex-direction: column;}
+}
+
+header {
+  nav {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+    a {
+      img {
+        width: 160px;
+      }
+    }
+
+    .nav-links {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      * {
+        color: #000000;
+        text-decoration: none;
+      }
+
+      .nav-cta {
+        background-color: #367ded;
+        color: #ffffff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: 600;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 0;
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin: 0 auto 40px;
+    max-width: 600px;
+  }
+
+  button {
+    background-color: #367ded;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
+.feature-section {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+
+  .feature-list {
+    div {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+    svg {
+      color: #367ded;
+      font-size: 2rem;
+      width: 40px;
+      margin-left: auto;
+    }
+  }
+}
+
+.first-feature-section {
+  img {
+    width: 500px;
+  }
+}
+
+.second-feature-section {
+  text-align: center;
+
+  img {
+    width: 500px;
+  }
+}
+
+.images{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 100px 0;
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 1.25rem;
+    margin: 0 auto 40px;
+    max-width: 600px;
+  }
+
+  button {
+    background-color: #367ded;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+}
+
